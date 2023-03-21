@@ -1,0 +1,4 @@
+# Packages:
+
+pip install django 
+pip install djangorestframework (include the app in settings file as : "rest_framework")
