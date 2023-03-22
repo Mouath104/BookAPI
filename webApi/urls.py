@@ -14,8 +14,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
-from webApiApp.views import BookList
+from webApiApp.views import BookList,BookDetail
 
 urlpatterns = [
     path('books/', BookList.as_view(), name='book-list'),
+    path('books/<int:pk>/', BookDetail.as_view(), name='book-detail'),
 ]

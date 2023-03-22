@@ -2,3 +2,12 @@
 
 pip install django 
 pip install djangorestframework (include the app in settings file as : "rest_framework")
+pip install psycopg2-binary
+
+# to connect to Postgressql
+
+* install Postgressql : https://www.postgresql.org/
+* Once PostgreSQL is installed, create a new database for your Django project using the PostgreSQL command line tool or a GUI tool like pgAdmin. Make sure to take note of the database name, username, and password that you set up.
+* In your Django project settings file (settings.py), replace the SQLite database settings with the PostgreSQL database settings. 
+* Install the PostgreSQL database adapter for Django: pip install psycopg2-binary
+* python manage.py migrate
