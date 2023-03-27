@@ -4,7 +4,7 @@ BookAPI is a simple Django project that provides a RESTful API for managing a co
 
 # Demo
 
-Public URL : http://13.49.175.168:8000/books/
+Public BookAPI : http://13.49.175.168:8000/books/
 
 * Get Books:
 
